@@ -22,11 +22,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Resources in Azure ( Resource Group & Virtual Machine)
+- Enable/Install IIS in Windows with CGI
+- Install PHP Manager for IIS
+- Install Rewrite Module
+- Create directory labled C:\PHP
+- Download PHP 7.3.8 and unzip contents into the C:\PHP
+- Install VC_redist.x86.exe
+- Download and install MySQL ( Set-up and standard configuration)
+- Register PHP from within IIP (Note: Reload IIS by opening IIS to stop and restart the server)
+- Install osTicket (Restart IIS again as noted in previous step)
+- Go to sites --> Default --> osTicket then click Browse*80 
+- Enable extensions that are not enabled
+- Rename ost-sampleconfig.php to ost-config.php
+- Assign Permissions 
+- Install Heidi SQL
+- Proceed with setting up osTicket in the browser
+
 
 <h2>Installation Steps</h2>
 
